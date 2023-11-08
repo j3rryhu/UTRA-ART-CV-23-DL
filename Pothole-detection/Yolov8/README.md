@@ -3,6 +3,7 @@ All models are based on Yolov8n and trained under the same dataset (photos captu
 - Train9: 20 epochs
 - Train15: 50 epochs
 - Train16: 30 epochs
+
 All models are able to detect potholes with occasional false positives. Train16 has the best performance with fewest instances of false positive.
 Note: Inference time with OpenVino and ONNX models only improve under CPU inference.
 
